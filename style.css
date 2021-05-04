@@ -1,0 +1,112 @@
+ /* Global ----------------------------------*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Title(name) ----------------------------------*/
+  h1{
+    position: relative;
+    text-align: left;
+    font-family: "Orelega One";
+
+    width: 100%;
+    height: 170px;
+    padding: 60px;
+    padding-left: 90px;
+    background-color: hsl(357, 58%, 51%);
+    font-size: 43px;
+  }
+  .secondTitle{
+    color: white;
+  }
+
+  /* Inputs----------------------------------*/
+  .inputs{
+   position: relative;
+   margin: 40px;
+   margin-left: 170px;
+   padding: 50px;
+   margin-bottom: -15px
+  }
+
+  label{
+    font-size: 20px;
+    font-weight:bolder;
+    font-family: "Orelega One";
+
+  }
+
+  input{ 
+    position: relative;
+    background-color: #cccccc;
+    font-family: "Orelega One";
+
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+   
+    height: 30px;
+    margin: 30px;
+    width: 300px;
+
+    outline:0; /*This outline remove the border when you selected the input*/
+  }
+ 
+  .material-icons{
+    display: inline-flex;
+    margin-left: -37px;
+    margin-bottom:-5px;
+    
+  }
+
+  #weight{
+    width: 306px;
+    margin-left: 42px;
+  }
+  /*button----------------------------------*/
+  #button{
+    
+    margin-left: 290px;
+    height: 50px;
+    width: 200px;
+    font-family: "Orelega One";
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: hsl(357, 58%, 51%);
+    cursor: pointer;
+  }
+  #button:hover{
+    background-color: hsl(357, 81%, 71%);    }
+
+  /*result----------------------------------*/
+  #result{
+    background-color:#f0f2f5;;
+
+    
+    margin-left: 75%;
+    transform:translate(-280px,-330px);
+
+    height: 400px;
+    width: 400px;
+    
+    border: 1px solid black;
+    border-radius: 9px;
+
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    font-weight: bold;
+    font-family: "Orelega One";
+
+  }
