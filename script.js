@@ -1,5 +1,6 @@
 const butao = document.getElementById('button');
 
+// ? é igual a um IF e se houver um : significa um Else
 
 function imc() {
 
